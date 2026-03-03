@@ -5,9 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>it.polimi.ingsw</groupId>
-    <artifactId>Software</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>Software</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -60,7 +58,6 @@
                         <!-- Default configuration for running with: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>it.polimi.ingsw.software/it.polimi.ingsw.software.HelloApplication</mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
                             <jlinkImageName>app</jlinkImageName>
