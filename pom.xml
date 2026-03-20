@@ -5,7 +5,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>it.polimi.ingsw</groupId>
+<<<<<<< HEAD
     <version>1.0-SNAPSHOT</version>
+=======
+    <artifactId>am22</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <name>mesos</name>
+>>>>>>> 7c921dd (second commit)
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -58,6 +64,10 @@
                         <!-- Default configuration for running with: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
+<<<<<<< HEAD
+=======
+                            <mainClass>it.polimi.ingsw.am22/it.polimi.ingsw.am22.HelloApplication</mainClass>
+>>>>>>> 7c921dd (second commit)
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
                             <jlinkImageName>app</jlinkImageName>

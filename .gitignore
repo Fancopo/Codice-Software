@@ -35,4 +35,11 @@ build/
 ### VS Code ###
 .vscode/
 
+<<<<<<< HEAD
 ### Mac OS ###
+=======
+### Mac OS ###
+.DS_Store
+
+.idea
+>>>>>>> 7c921dd (second commit)
