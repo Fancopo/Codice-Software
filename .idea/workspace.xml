@@ -4,33 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4eadf74-407e-49cc-9299-af7b87a1c856" name="Changes" comment="Second version of Building">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/java/il/polimi/ingsw/am22/BuildingEffect.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/java/il/polimi/ingsw/am22/Era.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/java/il/polimi/ingsw/am22/GamePhase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/java/il/polimi/ingsw/am22/HelloApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/java/il/polimi/ingsw/am22/HelloController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/java/il/polimi/ingsw/am22/Launcher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/java/il/polimi/ingsw/am22/character/Artist.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/java/il/polimi/ingsw/am22/character/Builder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/java/il/polimi/ingsw/am22/character/CharacterEffect.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/java/il/polimi/ingsw/am22/character/CharacterType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/java/il/polimi/ingsw/am22/character/Collector.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/java/il/polimi/ingsw/am22/character/Hunter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/java/il/polimi/ingsw/am22/character/Inventor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/java/il/polimi/ingsw/am22/character/Shaman.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/java/il/polimi/ingsw/am22/character/TribeCharacter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/java/il/polimi/ingsw/am22/event/CavePaintings.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/java/il/polimi/ingsw/am22/event/Event.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/java/il/polimi/ingsw/am22/event/EventEffect.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/java/il/polimi/ingsw/am22/event/EventType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/java/il/polimi/ingsw/am22/event/ShamanicRitual.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/java/il/polimi/ingsw/am22/event/hunting.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/java/il/polimi/ingsw/am22/event/sustenance.java" beforeDir="false" />
-    </list>
+    <list default="true" id="d4eadf74-407e-49cc-9299-af7b87a1c856" name="Changes" comment="Second version of Building" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,6 +19,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -82,7 +57,6 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "game",
     "kotlin-language-version-configured": "true",
     "node.js.selected.package.tslint": "(autodetect)"
   }
@@ -134,7 +108,23 @@
       <option name="project" value="LOCAL" />
       <updated>1774109302482</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Second version of Building">
+      <option name="closed" value="true" />
+      <created>1775209135284</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1775209135284</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Second version of Building">
+      <option name="closed" value="true" />
+      <created>1775209139406</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1775209139406</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
