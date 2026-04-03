@@ -5,11 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4eadf74-407e-49cc-9299-af7b87a1c856" name="Changes" comment="Second version of Building">
-      <change afterPath="$PROJECT_DIR$/src/test/java/it/polimi/ingsw/am22/Building.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/it/polimi/ingsw/am22/BuildingEffect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/it/polimi/ingsw/am22/Buildings6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/it/polimi/ingsw/am22/Building6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/it/polimi/ingsw/am22/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/it/polimi/ingsw/am22/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/java/il/polimi/ingsw/am22/BuildingEffect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/java/il/polimi/ingsw/am22/Era.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/java/il/polimi/ingsw/am22/GamePhase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/java/il/polimi/ingsw/am22/HelloApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/java/il/polimi/ingsw/am22/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/java/il/polimi/ingsw/am22/Launcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/java/il/polimi/ingsw/am22/character/Artist.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/java/il/polimi/ingsw/am22/character/Builder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/java/il/polimi/ingsw/am22/character/CharacterEffect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/java/il/polimi/ingsw/am22/character/CharacterType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/java/il/polimi/ingsw/am22/character/Collector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/java/il/polimi/ingsw/am22/character/Hunter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/java/il/polimi/ingsw/am22/character/Inventor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/java/il/polimi/ingsw/am22/character/Shaman.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/java/il/polimi/ingsw/am22/character/TribeCharacter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/java/il/polimi/ingsw/am22/event/CavePaintings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/java/il/polimi/ingsw/am22/event/Event.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/java/il/polimi/ingsw/am22/event/EventEffect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/java/il/polimi/ingsw/am22/event/EventType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/java/il/polimi/ingsw/am22/event/ShamanicRitual.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/java/il/polimi/ingsw/am22/event/hunting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/java/il/polimi/ingsw/am22/event/sustenance.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +69,9 @@
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="3AtUiA6XPNTIVvuMJwuRyVJnWzA" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -59,7 +82,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "game",
     "kotlin-language-version-configured": "true",
     "node.js.selected.package.tslint": "(autodetect)"
   }
@@ -119,7 +142,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -167,7 +202,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/it/polimi/ingsw/am22/Building.java</url>
           <line>118</line>
-          <properties class="it.polimi.ingsw.am22.ShamanicModifierEffect" method="modifyShamanicRitual">
+          <properties class="it.polimi.ingsw.am22.ShamanicModifierEffect">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -176,7 +211,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/it/polimi/ingsw/am22/Building.java</url>
           <line>219</line>
-          <properties class="it.polimi.ingsw.am22.EventYieldBonusEffect" method="modifyEventYield">
+          <properties class="it.polimi.ingsw.am22.EventYieldBonusEffect">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
