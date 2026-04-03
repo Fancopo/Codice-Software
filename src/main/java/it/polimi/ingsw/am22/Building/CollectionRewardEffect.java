@@ -1,10 +1,9 @@
-package it.polimi.ingsw.am22.Building;
+package Building;
 
 import java.util.HashMap;
 import java.util.Map;
 
 import Building.CollectionCondition;
-import it.polimi.ingsw.am22.Building.BuildingEffect;
 import it.polimi.ingsw.am22.Player;
 import it.polimi.ingsw.am22.character.TribeCharacter;
 import it.polimi.ingsw.am22.Tribe;
@@ -33,7 +32,7 @@ public class CollectionRewardEffect implements BuildingEffect {
             // Get the members list using the standard UML getter
             for (TribeCharacter character : player.getTribe().getMembers()) {
                 if (character.getCharacterType() == CharacterType.INVENTOR) {
-                    char icon = character.getIconPerInventor();
+                    char icon = character.getIcon();
                     iconCounts.put(icon, iconCounts.getOrDefault(icon, 0) + 1);
                 }
             }
@@ -44,7 +43,6 @@ public class CollectionRewardEffect implements BuildingEffect {
             }
 
             currentMatches = pairs;
-        }
 
             // --- CONDITION 2: The Set of 6 ---
         else if (conditionType == CollectionCondition.SET_OF_6) {
@@ -78,3 +76,4 @@ public class CollectionRewardEffect implements BuildingEffect {
             }
         }
     }
+}

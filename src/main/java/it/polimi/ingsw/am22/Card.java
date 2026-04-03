@@ -1,4 +1,7 @@
-package it.polimi.ingsw.am22;
+package am22;
+
+import il.polimi.ingse.Era;
+import it.polimi.ingsw.am22.Tribe;
 
 public abstract class Card {
     private String id;
