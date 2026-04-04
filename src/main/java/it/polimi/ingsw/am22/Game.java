@@ -8,10 +8,10 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class Game {
-    private List<Player> players;
-    private Board board;
-    private List<Card> tribeDeck;
-    private List<Building> buildingMarket;
+    private final List<Player> players;
+    private final Board board;
+    private final List<Card> tribeDeck;
+    private final List<Building> buildingMarket;
     private int currentRound;
     private Era currentEra;
     private Player activePlayer;
@@ -58,8 +58,8 @@ public class Game {
         currentState.placeTotemOnOffer(this, player, tile);
     }
 
-    public void pickCards(Player player, List<Card> selectedCards) {
-        currentState.pickCards(this, player, selectedCards);
+    public void pickCards1(Player player, List<Card> selectedCards) {
+        currentState.pickCards2(this, player, selectedCards);
     }
 
     // INSERIMENTO del delegato per la mossa bonus di fine round
