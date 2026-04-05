@@ -98,5 +98,8 @@ public class Tribe {
     public List<Building> getBuildings() {
         return List.copyOf(buildings);
     }
+
+    public int countCharacter(TribeCharacter characterType) {
+    }
 }
 
